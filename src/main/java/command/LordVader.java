@@ -21,4 +21,5 @@ public class LordVader implements ForceUser {
     public void useForces() {
         forcesAbilities.forEach(Force::use);
     }
+
 }
