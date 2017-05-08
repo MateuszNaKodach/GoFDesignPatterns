@@ -12,7 +12,6 @@ public class Demo {
 
         forceImpactState.doAction(rockContext);
         crashedState.doAction(rockContext);
-
     }
 
 }
