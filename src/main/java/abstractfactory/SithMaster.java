@@ -6,6 +6,13 @@ package abstractfactory;
 public class SithMaster implements ForceUser {
     private String name = "Sith Master";
 
+    public SithMaster(String name) {
+        this.name = name;
+    }
+
+    public SithMaster() {
+    }
+
     public String getName() {
         return name;
     }
