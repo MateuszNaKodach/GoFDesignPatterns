@@ -9,4 +9,9 @@ public class SithMaster implements ForceUser {
     public String getName() {
         return name;
     }
+
+    @Override
+    public void useForces() {
+
+    }
 }

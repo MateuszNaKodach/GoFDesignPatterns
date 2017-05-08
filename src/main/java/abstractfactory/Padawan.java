@@ -9,4 +9,9 @@ public class Padawan implements ForceUser {
     public String getName() {
         return name;
     }
+
+    @Override
+    public void useForces() {
+
+    }
 }

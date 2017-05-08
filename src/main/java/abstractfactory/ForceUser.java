@@ -5,4 +5,5 @@ package abstractfactory;
  */
 public interface ForceUser {
     String getName();
+    void useForces();
 }
